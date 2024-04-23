@@ -41,7 +41,17 @@ https://www.reddit.com/r/jobs/comments/1c1zw83/i_applied_to_100_jobs_using_a_res
 - **Flexible Document Support**: Accepts resumes in multiple formats including PDF, DOCX, and plain text.
 - **Cutting-Edge AI**: Powered by Google's Gemini 1.5 Pro model, BeyondATS AI can retrieve insights that traditional methods would not be able to compete with.
 
+## Additional Features/Improvements in scope
 
+- Move application away from Streamlit, over to React for more flexibility.
+
+- Create Dashboard with Gemini API results for better organisation and readibility of content
+
+- Account Capabilities: Have an account to keep track of candidate history. This will be done using a database which will be linked using OAuth 2.0 Authentication to each account
+
+## Data Flow Diagram
+
+![Data Flow Diagram](image/datafeed.png)
 ## Getting Started
 
 ### Prerequisites
@@ -74,22 +84,11 @@ streamlit run app.py
 
 Navigate to `http://localhost:8501` in your web browser to view the application.
 
-## Data Flow Diagram
-
-![Data Flow Diagram](image/datafeed.png)
-<!-- Replace 'path/to/your/image.png' with the actual path to your data flow diagram image -->
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## Additional Features/Improvements in scope
-
-- Move application away from Streamlit, over to React for more flexibility.
-
-- Create Dashboard with Gemini API results for better organisation and readibility of content
-
-- Account Capabilities: Have an account to keep track of candidate history. This will be done using a database which will be linked using OAuth 2.0 Authentication to each account
 
 
 
