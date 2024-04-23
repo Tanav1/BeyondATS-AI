@@ -5,7 +5,6 @@ from docx import Document
 import os
 
 
-# Configure your model
 def setup_model():
     genai.configure(api_key=st.secrets["API_KEY"])
     generation_config = {
