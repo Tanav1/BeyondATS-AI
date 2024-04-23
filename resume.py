@@ -111,7 +111,7 @@ def show_resume_page():
             st.success('Analysis complete! You can now view the results.')
             st.session_state['analysis_result'] = response
             st.session_state['analysis_done'] = True  # Set this to control result page visibility
-            st.session_state['page'] = 'View Results'  # Ensure this exactly matches the page name
+            st.session_state['page'] = 'View Results'  
             st.experimental_rerun() #Redirect to homepage, View Results page will be visible in NavBar
         else:
             st.error('Failed to analyze the resume. Please try again.')
