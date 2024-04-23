@@ -12,11 +12,11 @@ https://beyondats-ai.streamlit.app/
 
 As part of a social experiment, a social media influencer submitted a resume containing false information about their work experience. The resume listed positions at renowned companies such as Google, Instagram, and Amazon, alongside peculiar job responsibilities:
 
--"Enhanced a 300% increase in average coffee break time of team, by nonstop crying in the main office room."
+- "Enhanced a 300% increase in average coffee break time of team, by nonstop crying in the main office room."
 
--"Verified sending threats to 16 competitors, decreasing the competitive landscape by 18%."
+- "Verified sending threats to 16 competitors, decreasing the competitive landscape by 18%."
 
--"Helped utilize Google's computing resources to mine $15M of Ethereum before getting caught & returning it."
+- "Helped utilize Google's computing resources to mine $15M of Ethereum before getting caught & returning it."
 
 These are only a few of the odd job responsibilities listed. Additionally, the candidate claimed to have worked on the non-existent "Amazon Dating" team. Despite the incredulous claims, the resume garnered interviews from reputable companies including Databricks, MongoDB, Reddit, Lucid, Cloudflare, and Robinhood.
 
@@ -89,10 +89,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 - Create Dashboard with Gemini API results for better organisation and readibility of content
 
-- Account Capabilities: Have an account to keep track of candidate history
-
-      - This will be done using a database which will be linked using OAuth 2.0 Authentication to each account
+- Account Capabilities: Have an account to keep track of candidate history. This will be done using a database which will be linked using OAuth 2.0 Authentication to each account
 
 
 
-- 
+  
