@@ -44,7 +44,7 @@ Navigate to `http://localhost:8501` in your web browser to view the application.
 
 ## Data Flow Diagram
 
-![Data Flow Diagram](image/dataflow.png)
+![Data Flow Diagram](image/datafeed.png)
 <!-- Replace 'path/to/your/image.png' with the actual path to your data flow diagram image -->
 
 ## License
