@@ -27,7 +27,7 @@ def main():
         show_about_page()
     elif choice == "Resume Scanner":
         show_resume_page()
-    elif choice == "View Results":  # Make sure this matches what you add in `pages`
+    elif choice == "View Results":  
         show_results_page()
 
 if __name__ == "__main__":
