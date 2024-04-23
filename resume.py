@@ -4,11 +4,10 @@ from PyPDF2 import PdfReader
 from docx import Document
 import os
 
-st.write("secret_key:", st.secrets["API_KEY"])
 
 # Configure your model
 def setup_model():
-    genai.configure(api_key=secret_key)
+    genai.configure(api_key=st.secrets["API_KEY"])
     generation_config = {
         "temperature": 1,
         "top_p": 0.95,
