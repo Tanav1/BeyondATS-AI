@@ -4,8 +4,7 @@ from PyPDF2 import PdfReader
 from docx import Document
 import os
 
-secret_key = os.environ.get("NEW_API_KEY")
-
+st.write("secret_key:", st.secrets["API_KEY"])
 
 # Configure your model
 def setup_model():
