@@ -71,8 +71,8 @@ def show_resume_page():
     st.title("Resume Scanner")
     job_title = st.text_input("Job Title")
     company_name = st.text_input("Company Name")
-    job_description = st.text_area("Roles/Responsibilities/Description", height=250)
-    additional_notes = st.text_area("Any Additional Notes about role, company, or candidate")
+    job_description = st.text_area("Role: Responsibilities/Description", height=250)
+    additional_notes = st.text_area("Additional notes about role, company, or candidate (Not Required)")
 
     # User selects input method
     input_method = st.radio("Choose your input method:", ("Upload Candidate Resume", "Paste Candidate Resume"))
