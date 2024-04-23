@@ -8,9 +8,10 @@ BeyondATS AI is an advanced resume analysis tool designed to overcome the limita
 
 As part of a social experiment, a social media influencer submitted a resume containing false information about their work experience. The resume listed positions at renowned companies such as Google, Instagram, and Amazon, alongside peculiar job responsibilities:
 
-"Enhanced a 300% increase in average coffee break time of team, by nonstop crying in the main office room."
-"Verified sending threats to 16 competitors, decreasing the competitive landscape by 18%."
-"Helped utilize Google's computing resources to mine $15M of Ethereum before getting caught & returning it."
+-"Enhanced a 300% increase in average coffee break time of team, by nonstop crying in the main office room."
+-"Verified sending threats to 16 competitors, decreasing the competitive landscape by 18%."
+-"Helped utilize Google's computing resources to mine $15M of Ethereum before getting caught & returning it."
+
 These are only a few of the odd job responsibilities listed. Additionally, the candidate claimed to have worked on the non-existent "Amazon Dating" team. Despite the incredulous claims, the resume garnered interviews from reputable companies including Databricks, MongoDB, Reddit, Lucid, Cloudflare, and Robinhood.
 
 This incident underscores the challenges faced by companies in vetting candidates amidst the sheer volume of applications received. Automated applicant tracking systems (ATS) and time-pressed hiring managers often overlook inconsistencies or inaccuracies in resumes, leading to the inadvertent consideration of unqualified candidates.
