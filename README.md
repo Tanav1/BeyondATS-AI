@@ -82,3 +82,17 @@ Navigate to `http://localhost:8501` in your web browser to view the application.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Additional Features/Improvements in scope
+
+- Move application away from Streamlit, over to React for more flexibility.
+
+- Create Dashboard with Gemini API results for better organisation and readibility of content
+
+- Account Capabilities: Have an account to keep track of candidate history
+
+      - This will be done using a database which will be linked using OAuth 2.0 Authentication to each account
+
+
+
+- 
