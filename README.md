@@ -32,10 +32,11 @@ https://www.reddit.com/r/jobs/comments/1c1zw83/i_applied_to_100_jobs_using_a_res
 
 ## Features
 
-- **Dual Input Modes**: Supports uploading resume documents or directly pasting resume text.
 - **Comprehensive Analysis**: Uses AI to perform deep analysis of resumes, assessing not just technical qualifications but also soft skills and cultural fit.
+- **Holistic Analysis** The tool will analyze and assess skill proficiency levels, innovation index, leadership potential, adaptability score, technology adaptation rate, communication effectiveness, project impact score, client engagement score, risk management index, learning agility index, and digital literacy score to give a well-rounded analysis of the candidate. 
 - **Flexible Document Support**: Accepts resumes in multiple formats including PDF, DOCX, and plain text.
-- **Visual Insights**: Includes a dashboard for a clear and intuitive display of candidates' analysis results.
+- **Cutting-Edge AI**: Powered by Google's Gemini 1.5 Pro model, BeyondATS AI can retrieve insights that traditional methods would not be able to compete with.
+
 
 ## Getting Started
 
