@@ -114,8 +114,3 @@ def show_resume_page():
         else:
             st.error('Failed to analyze the resume. Please try again.')
 
-
-# response = model.generate_content(
-#     model="gemini-pro-vision",
-#     content=[prompt, cookie_picture]
-# )
