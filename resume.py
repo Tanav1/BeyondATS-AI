@@ -4,7 +4,7 @@ from PyPDF2 import PdfReader
 from docx import Document
 import os
 
-
+#Model Configuration + Prompt Engineering
 def setup_model():
     genai.configure(api_key=st.secrets["API_KEY"])
     generation_config = {
@@ -54,7 +54,7 @@ def setup_model():
 
 model = setup_model()
 
-
+#Text Extraction using PdfReader from PyPDF2 library
 def extract_text_from_pdf(file):
     reader = PdfReader(file)
     text = ''
@@ -62,18 +62,22 @@ def extract_text_from_pdf(file):
         text += page.extract_text() or ''  # Concatenate text from each page
     return text
 
+#Text Extraction of docx files
 def extract_text_from_docx(file):
     doc = Document(file)
     return '\n'.join([paragraph.text for paragraph in doc.paragraphs])
 
+#Function to render resume page
 def show_resume_page():
     st.title("Resume Scanner")
+
+    #User text inputs
     job_title = st.text_input("Job Title")
     company_name = st.text_input("Company Name")
     job_description = st.text_area("Role: Responsibilities/Description", height=250)
     additional_notes = st.text_area("Additional notes about role, company, or candidate (Not Required)")
 
-    # User selects input method
+    # User selects resume input method
     input_method = st.radio("Choose your input method:", ("Upload Candidate Resume", "Paste Candidate Resume"))
     resume_text = ""
     if input_method == "Upload Candidate Resume":
@@ -100,16 +104,15 @@ def show_resume_page():
     if st.button("Analyze Resume") and resume_text:
         with st.spinner('Analyzing resume... Please wait.'):
             st.write('Once finished analyzing, go to View Results on Navigation Bar')
-            # Assume model.generate_content takes a string of resume text
-            prompt_parts = f"Role/Job Title: {job_title} Responsibilities: {job_description} Company Name: {company_name} Additional Notes: {additional_notes} Resume Text: {resume_text}"
-            response = model.generate_content(prompt_parts)
+            prompt_parts = f"Role/Job Title: {job_title} Responsibilities: {job_description} Company Name: {company_name} Additional Notes: {additional_notes} Resume Text: {resume_text}" #Set Prompt Format
+            response = model.generate_content(prompt_parts) #API Call
 
         if response:
             st.success('Analysis complete! You can now view the results.')
             st.session_state['analysis_result'] = response
             st.session_state['analysis_done'] = True  # Set this to control result page visibility
             st.session_state['page'] = 'View Results'  # Ensure this exactly matches the page name
-            st.experimental_rerun()
+            st.experimental_rerun() #Redirect to homepage, View Results page will be visible in NavBar
         else:
             st.error('Failed to analyze the resume. Please try again.')
 
