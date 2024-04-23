@@ -2,12 +2,14 @@ import streamlit as st
 import google.generativeai as genai
 from PyPDF2 import PdfReader
 from docx import Document
+import os
 
+secret_key = os.environ.get("API_KEY")
 
 
 # Configure your model
 def setup_model():
-    genai.configure(api_key="AIzaSyD1-b5PDRR7N_LOkr8DIv6WppYYSybfAL8")
+    genai.configure(api_key=secret_key)
     generation_config = {
         "temperature": 1,
         "top_p": 0.95,
