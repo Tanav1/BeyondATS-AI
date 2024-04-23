@@ -4,7 +4,7 @@
 BeyondATS AI is an advanced resume analysis tool designed to overcome the limitations of traditional Applicant Tracking Systems (ATS). By incorporating cutting-edge AI technologies, BeyondATS AI ensures a more holistic and fair assessment of candidates' resumes, enhancing recruitment processes and enabling better candidate selection.
 
 ## Motivation: 
-#Case Study: The Impact of Inaccurate Resumes on Hiring Processes
+### Case Study: The Impact of Inaccurate Resumes on Hiring Processes
 
 As part of a social experiment, a social media influencer submitted a resume containing false information about their work experience. The resume listed positions at renowned companies such as Google, Instagram, and Amazon, alongside peculiar job responsibilities:
 
