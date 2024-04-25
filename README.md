@@ -52,6 +52,28 @@ https://www.reddit.com/r/jobs/comments/1c1zw83/i_applied_to_100_jobs_using_a_res
 ## Data Flow Diagram
 
 ![Data Flow Diagram](image/datafeed.png)
+
+## Target Demographic
+
+### BeyondATS AI is crafted for two primary user groups, each pivotal in the employment sector:
+
+**Hiring Managers and Recruiters**
+
+- **Objective**: To streamline the hiring process and ensure only the most suitable candidates are considered.
+- **Benefits**:
+  - **Depth in Analysis**: Provides a comprehensive view of each candidate, assessing beyond mere qualifications to include soft skills and potential cultural fit.
+  - **Efficiency and Accuracy**: Reduces the time and resources spent on sifting through unsuitable candidates.
+  - **Reduced Bias**: Promotes fairness in hiring by minimizing unconscious bias and focusing on factual data.
+
+**Job Seekers**
+- **Objective**: To understand how their resume matches up against specific job descriptions.
+- **Benefits**:
+  - **Insightful Feedback**: Offers detailed feedback on how their skills and experiences align with the job they are applying for.
+  - **Skill Gap Identification**: Helps in identifying areas where additional development might be needed.
+  - **Enhanced Job Matching**: Improves the chances of being selected for a job by aligning the resume more closely with job requirements.
+
+
+
 ## Getting Started
 
 ### Prerequisites
