@@ -49,6 +49,9 @@ https://www.reddit.com/r/jobs/comments/1c1zw83/i_applied_to_100_jobs_using_a_res
 
 - Account Capabilities: Have an account to keep track of candidate history. This will be done using a database which will be linked using OAuth 2.0 Authentication to each account.
 
+- Direct file parsing from Gemini API instead of using PyPDF2 and docx libraries to parse data
+
+
 ## Data Flow Diagram
 
 ![Data Flow Diagram](image/datafeed.png)
@@ -95,6 +98,18 @@ Install the required Python packages:
 ```bash
 pip install -r requirements.txt
 ```
+
+Replace this line from /resume.py
+```bash
+genai.configure(api_key=st.secrets["API_KEY"])
+```
+with
+
+```bash
+genai.configure(api_key="API_KEY")
+```
+
+filling in "API_KEY" with your Google API key
 
 ### Usage
 
