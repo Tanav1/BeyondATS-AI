@@ -49,7 +49,7 @@ https://www.reddit.com/r/jobs/comments/1c1zw83/i_applied_to_100_jobs_using_a_res
 
 - Account Capabilities: Have an account to keep track of candidate history. This will be done using a database which will be linked using OAuth 2.0 Authentication to each account.
 
-- Direct file parsing from Gemini API instead of using PyPDF2 and docx libraries to parse data
+- Direct file parsing from Gemini API instead of using PyPDF2 and docx libraries to parse data.
 
 
 ## Data Flow Diagram
