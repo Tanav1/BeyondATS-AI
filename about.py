@@ -29,7 +29,7 @@ def show_about_page():
 
         These are only a few of the odd job responsibilities listed. Additionally, the candidate claimed to have worked on the non-existent "Amazon Dating" team. Despite the incredulous claims, the resume garnered interviews from reputable companies including Databricks, MongoDB, Reddit, Lucid, Cloudflare, and Robinhood.
         """)
-        st.image("image/Interviews.png", caption="Companies that reached out with interview opportunities", use_column_width=True)
+        st.image("image/Interviews.png", caption="Companies that reached out with interview opportunities highlighted in green", use_column_width=True)
         st.write("""
         This incident underscores the challenges faced by companies in vetting candidates amidst the sheer volume of applications received. 
 
