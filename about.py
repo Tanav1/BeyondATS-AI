@@ -17,36 +17,36 @@ def show_about_page():
     - **Insightful Feedback:** Offers detailed explanations for each score, highlighting strengths and areas for improvement.
        """)
 
-with st.expander("Case Study: The Impact of Inaccurate Resumes on Hiring Processes", expanded=False):
-    st.write("""
-    ## Case Study: The Impact of Inaccurate Resumes on Hiring Processes
+    with st.expander("Case Study: The Impact of Inaccurate Resumes on Hiring Processes", expanded=False):
+        st.write("""
+        ## Case Study: The Impact of Inaccurate Resumes on Hiring Processes
 
-    As part of a social experiment, a social media influencer submitted a resume containing false information about their work experience. The resume listed positions at renowned companies such as Google, Instagram, and Amazon, alongside peculiar job responsibilities:
+        As part of a social experiment, a social media influencer submitted a resume containing false information about their work experience. The resume listed positions at renowned companies such as Google, Instagram, and Amazon, alongside peculiar job responsibilities:
 
-    - "Enhanced a 300% increase in average coffee break time of team, by nonstop crying in the main office room."
-    - "Verified sending threats to 16 competitors, decreasing the competitive landscape by 18%."
-    - "Helped utilize Google's computing resources to mine $15M of Ethereum before getting caught & returning it."
+        - "Enhanced a 300% increase in average coffee break time of team, by nonstop crying in the main office room."
+        - "Verified sending threats to 16 competitors, decreasing the competitive landscape by 18%."
+        - "Helped utilize Google's computing resources to mine $15M of Ethereum before getting caught & returning it."
 
-    These are only a few of the odd job responsibilities listed. Additionally, the candidate claimed to have worked on the non-existent "Amazon Dating" team. Despite the incredulous claims, the resume garnered interviews from reputable companies including Databricks, MongoDB, Reddit, Lucid, Cloudflare, and Robinhood.
+        These are only a few of the odd job responsibilities listed. Additionally, the candidate claimed to have worked on the non-existent "Amazon Dating" team. Despite the incredulous claims, the resume garnered interviews from reputable companies including Databricks, MongoDB, Reddit, Lucid, Cloudflare, and Robinhood.
 
-    st.image("image/Interviews.png", caption="Companies that reached out with interview opportunities", use_column_width=True)
+        st.image("image/Interviews.png", caption="Companies that reached out with interview opportunities", use_column_width=True)
 
-    This incident underscores the challenges faced by companies in vetting candidates amidst the sheer volume of applications received. 
+        This incident underscores the challenges faced by companies in vetting candidates amidst the sheer volume of applications received. 
 
-    Automated applicant tracking systems (ATS) and time-pressed hiring managers often overlook inconsistencies or inaccuracies in resumes, leading to the inadvertent consideration of unqualified candidates.
+        Automated applicant tracking systems (ATS) and time-pressed hiring managers often overlook inconsistencies or inaccuracies in resumes, leading to the inadvertent consideration of unqualified candidates.
 
-    To address this issue, companies are increasingly turning to AI-driven solutions to enhance their hiring processes. By utilizing machine learning algorithms, organizations can efficiently screen resumes for both qualifications and integrity, mitigating the risk of hiring based on false information.
+        To address this issue, companies are increasingly turning to AI-driven solutions to enhance their hiring processes. By utilizing machine learning algorithms, organizations can efficiently screen resumes for both qualifications and integrity, mitigating the risk of hiring based on false information.
 
-    This case highlights the importance of thorough resume vetting and the potential for AI to streamline recruitment practices, ensuring that deserving candidates receive fair consideration while maintaining the integrity of the hiring process.
+        This case highlights the importance of thorough resume vetting and the potential for AI to streamline recruitment practices, ensuring that deserving candidates receive fair consideration while maintaining the integrity of the hiring process.
 
-    More Information:
+        More Information:
 
-    [LinkedIn](https://www.linkedin.com/posts/jehakjerrylee_kismma-d-nhuhts-series-activity-7184308527132241921-76m5/)
+        [LinkedIn](https://www.linkedin.com/posts/jehakjerrylee_kismma-d-nhuhts-series-activity-7184308527132241921-76m5/)
 
-    [Twitter](https://twitter.com/JerryJHLee/status/1778484920593055763)
+        [Twitter](https://twitter.com/JerryJHLee/status/1778484920593055763)
 
-    [Reddit](https://www.reddit.com/r/jobs/comments/1c1zw83/i_applied_to_100_jobs_using_a_resume_with_the/)
-    """)
+        [Reddit](https://www.reddit.com/r/jobs/comments/1c1zw83/i_applied_to_100_jobs_using_a_resume_with_the/)
+        """)
 
     with st.expander("How Does It Work?", expanded=False):
         st.markdown("""
