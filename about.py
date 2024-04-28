@@ -29,7 +29,11 @@ def show_about_page():
 
         These are only a few of the odd job responsibilities listed. Additionally, the candidate claimed to have worked on the non-existent "Amazon Dating" team. Despite the incredulous claims, the resume garnered interviews from reputable companies including Databricks, MongoDB, Reddit, Lucid, Cloudflare, and Robinhood.
 
-        This incident underscores the challenges faced by companies in vetting candidates amidst the sheer volume of applications received. Automated applicant tracking systems (ATS) and time-pressed hiring managers often overlook inconsistencies or inaccuracies in resumes, leading to the inadvertent consideration of unqualified candidates.
+        st.image("image/Interviews.png", caption="Companies that reached out with interview opportunities", use_column_width=True)
+        
+        This incident underscores the challenges faced by companies in vetting candidates amidst the sheer volume of applications received. 
+        
+        Automated applicant tracking systems (ATS) and time-pressed hiring managers often overlook inconsistencies or inaccuracies in resumes, leading to the inadvertent consideration of unqualified candidates.
 
         To address this issue, companies are increasingly turning to AI-driven solutions to enhance their hiring processes. By utilizing machine learning algorithms, organizations can efficiently screen resumes for both qualifications and integrity, mitigating the risk of hiring based on false information.
 
