@@ -8,7 +8,7 @@ BeyondATS AI is an advanced resume analysis tool designed to overcome the limita
 https://beyondats-ai.streamlit.app/
 
 ## Motivation: 
-### Case Study: The Impact of Inaccurate Resumes on Hiring Processes
+### Case Study: The Impact of Inaccurate Resumes on Hiring Processes:
 
 As part of a social experiment, a social media influencer submitted a resume containing false information about their work experience. The resume listed positions at renowned companies such as Google, Instagram, and Amazon, alongside peculiar job responsibilities:
 
@@ -34,14 +34,14 @@ https://twitter.com/JerryJHLee/status/1778484920593055763
 
 https://www.reddit.com/r/jobs/comments/1c1zw83/i_applied_to_100_jobs_using_a_resume_with_the/
 
-## Features
+## Features:
 
 - **Comprehensive Analysis**: Uses AI to perform deep analysis of resumes, assessing not just technical qualifications but also soft skills and cultural fit.
 - **Holistic Analysis** The tool will analyze and assess skill proficiency levels, innovation index, leadership potential, adaptability score, technology adaptation rate, communication effectiveness, project impact score, client engagement score, risk management index, learning agility index, and digital literacy score to give a well-rounded analysis of the candidate. 
 - **Flexible Document Support**: Accepts resumes in multiple formats including PDF, DOCX, and plain text.
 - **Cutting-Edge AI**: Powered by Google's Gemini 1.5 Pro model, BeyondATS AI can retrieve insights that traditional methods would not be able to compete with.
 
-## Additional Features/Improvements in scope
+## Additional Features/Improvements in Scope:
 
 - Move application away from Streamlit, over to React for more flexibility.
 
@@ -52,15 +52,15 @@ https://www.reddit.com/r/jobs/comments/1c1zw83/i_applied_to_100_jobs_using_a_res
 - Direct file parsing from Gemini API instead of using PyPDF2 and docx libraries to parse data.
 
 
-## Data Flow Diagram
+## Data Flow Diagram:
 
 ![Data Flow Diagram](image/datafeed.png)
 
-## Target Demographic
+## Target Demographic:
 
 ### BeyondATS AI is crafted for two primary user groups, each pivotal in the employment sector:
 
-**Hiring Managers and Recruiters**
+**Hiring Managers and Recruiters:**
 
 - **Objective**: To streamline the hiring process and ensure only the most suitable candidates are considered.
 - **Benefits**:
@@ -68,12 +68,19 @@ https://www.reddit.com/r/jobs/comments/1c1zw83/i_applied_to_100_jobs_using_a_res
   - **Efficiency and Accuracy**: Reduces the time and resources spent on sifting through unsuitable candidates.
   - **Reduced Bias**: Promotes fairness in hiring by minimizing unconscious bias and focusing on factual data.
 
-**Job Seekers**
+**Job Seekers:**
 - **Objective**: To understand how their resume matches up against specific job descriptions.
 - **Benefits**:
   - **Insightful Feedback**: Offers detailed feedback on how their skills and experiences align with the job they are applying for.
   - **Skill Gap Identification**: Helps in identifying areas where additional development might be needed.
   - **Enhanced Job Matching**: Improves the chances of being selected for a job by aligning the resume more closely with job requirements.
+
+**Example Output:**
+<p align="center">
+  <img src="image/Example1.png" alt="Overview">
+  <img src="image/Example2.png" alt="Detailed Analysis">
+</p>
+
 
 
 
