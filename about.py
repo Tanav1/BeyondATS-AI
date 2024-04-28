@@ -118,6 +118,12 @@ def show_about_page():
         The final output includes a compatibility score from 0 to 10, where 0 indicates minimal qualification and 10 indicates a perfect match, complete with detailed reasoning for the score.
         """)
 
+    with st.expander("Example Output: ", expanded=False):
+        st.image("image/Example1.png", use_column_width=True)
+        st.image("image/Example2.png", use_column_width=True)
+
+
+
 
 
 if __name__ == "__main__":
