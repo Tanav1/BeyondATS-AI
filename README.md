@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="image/logo.jpeg" alt="Logo" width="100px">
+</p>
 
 # BeyondATS AI
 
@@ -6,6 +9,8 @@ BeyondATS AI is an advanced resume analysis tool designed to overcome the limita
 **Try it yourself:**
 
 https://beyondats-ai.streamlit.app/
+
+
 
 ## Motivation: 
 ### Case Study: The Impact of Inaccurate Resumes on Hiring Processes:
