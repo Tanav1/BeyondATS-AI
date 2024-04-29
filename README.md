@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="image/logo.jpeg" alt="Logo" width="100px">
+  <img src="image/logo.jpeg" alt="Logo" width="200px">
 </p>
 
 # BeyondATS AI
