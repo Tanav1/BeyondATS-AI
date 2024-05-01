@@ -31,43 +31,44 @@ def setup_model():
     Ensure that all of this data is taken into account in the analysis. 
     Also, for clarification, Additional Notes contains additional information from the hiring manager that should be taken 
     into account while running the analysis. An example would be a candidate must have a bachelor's degree. 
-    Also, do not assume any pronouns from the resume.
+    Also, do not assume any pronouns from the resume. Use the tags I provide to ensure that the formatting remains consistent.
     ### Output Format:
-- Compatibility Score: Numeric score from 0-10 indicating overall suitability.
-- Basic Information:
-    - Name: [Candidate's Name]
-    - Contact Info: [Candidate's Phone Number and Email Address]
-    - LinkedIn: [LinkedIn Profile URL]
-    - Location: [Candidate's Location]
-    - Email: [Candidate's Email Address]
-    - Education:
-    - Institution: [Name of Institution]
-    - Years Attended: [Year Started] - [Year Ended]
-    - GPA: [GPA, if available]
+<h1> Candidate Suitability Analysis for {job_title} at {company_name} (if provided) </h1>
+<h2> Compatibility Score: Numeric score from 0-10 indicating overall suitability. </h2>
+<h3>Basic Information:</h3>
+    <li>- Name: [Candidate's Name]</li>
+    <li>- Contact Info: [Candidate's Phone Number and Email Address]</li>
+    <li>- LinkedIn: [LinkedIn Profile URL]</li>
+    <li>- Location: [Candidate's Location]</li>
+    <li>- Email: [Candidate's Email Address]</li>
+    <li>- Education:</li>
+    <li>- Institution: [Name of Institution]</li>
+    <li>- Years Attended: [Year Started] - [Year Ended]</li>
+    <li>- GPA: [GPA, if available]</li>
 
-- Advanced Metrics for Holistic Assessment:
-    - Skill Proficiency Levels: [Score] - [Justification with examples]
-    - Cultural Fit: [Score] - [Justification with examples]
-    - Innovation Index: [Score] - [Justification with examples]
-    - Leadership Potential: [Score] - [Justification with examples]
-    - Adaptability Score: [Score] - [Justification with examples]
-    - Technology Adaptation Rate: [Score] - [Justification with examples]
-    - Communication Effectiveness: [Score] - [Justification with examples]
-    - Project Impact Score: [Score] - [Justification with examples]
-    - Client Engagement Score: [Score] - [Justification with examples]
-    - Risk Management Index: [Score] - [Justification with examples]
-    - Learning Agility Index: [Score] - [Justification with examples]
-    - Digital Literacy Score: [Score] - [Justification with examples]
-    - Detailed Evaluation Report:
-    - Strengths: [Strengths with examples]
-    - Relevant Experiences: [Relevant experiences with examples]
-    - Quantifiable Achievements: [Quantifiable achievements with examples]
-    - Areas for Improvement: [Areas for improvement with examples]
-    - Feedback for Candidate: [Feedback for candidate]
-    - Questions for Interview: [Questions for the interview]
-    - Red Flag Analysis: [Red flag analysis]
-    - Achievement Impact: [Achievement impact with examples]
-    - Overall Summary with Hiring Recommendation: [Overall summary with hiring recommendation]
+<h3>Advanced Metrics for Holistic Assessment:</h3>
+    <li>- Skill Proficiency Levels: [Score] - [Justification with examples]</li>
+    <li>- Cultural Fit: [Score] - [Justification with examples]</li>
+    <li>- Innovation Index: [Score] - [Justification with examples]</li>
+    <li>- Leadership Potential: [Score] - [Justification with examples]</li>
+    <li>- Adaptability Score: [Score] - [Justification with examples]</li>
+    <li>- Technology Adaptation Rate: [Score] - [Justification with examples]</li>
+    <li>- Communication Effectiveness: [Score] - [Justification with examples]</li>
+    <li>- Project Impact Score: [Score] - [Justification with examples]</li>
+    <li>- Client Engagement Score: [Score] - [Justification with examples]</li>
+    <li>- Risk Management Index: [Score] - [Justification with examples]</li>
+    <li>- Learning Agility Index: [Score] - [Justification with examples]</li>
+    <li>- Digital Literacy Score: [Score] - [Justification with examples]</li>
+    <li>- Detailed Evaluation Report:
+    <li>- Strengths: [Strengths with examples]</li>
+    <li>- Relevant Experiences: [Relevant experiences with examples]</li>
+    <li>- Quantifiable Achievements: [Quantifiable achievements with examples]</li>
+    <li>- Areas for Improvement: [Areas for improvement with examples]</li>
+    <li>- Feedback for Candidate: [Feedback for candidate]</li>
+    <li>- Questions for Interview: [Questions for the interview]</li>
+    <li>- Red Flag Analysis: [Red flag analysis]</li>
+    <li>- Achievement Impact: [Achievement impact with examples]</li>
+    <li>- Overall Summary with Hiring Recommendation: [Overall summary with hiring recommendation]</li>
 
 
     Ensure all sections are clearly defined and consistently presented, allowing for straightforward parsing and display in the web interface,
