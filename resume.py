@@ -116,13 +116,13 @@ def show_resume_page():
             try:
                 if file_type == "application/pdf":
                     resume_text = extract_text_from_pdf(resume)
-                    st.subheader("Extracted Text from PDF:")
+                    #st.subheader("Extracted Text from PDF:")
                 elif file_type == "application/vnd.openxmlformats-officedocument.wordprocessingml.document":
                     resume_text = extract_text_from_docx(resume)
-                    st.subheader("Extracted Text from DOCX:")
+                    #st.subheader("Extracted Text from DOCX:")
                 elif file_type == "text/plain":
                     resume_text = str(resume.read(), "utf-8")  # Decode for txt file
-                    st.subheader("Extracted Text from TXT:")
+                    #st.subheader("Extracted Text from TXT:")
                 else:
                     st.error("Unsupported file type.")
             except Exception as e:
