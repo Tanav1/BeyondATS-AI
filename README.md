@@ -50,7 +50,7 @@ https://www.reddit.com/r/jobs/comments/1c1zw83/i_applied_to_100_jobs_using_a_res
 
 - Move application away from Streamlit, over to React for more flexibility.
 
-- Create Dashboard with Gemini API results for better organisation and readibility of content.
+- Create Dashboard with Gemini API results for better organization and readibility of content.
 
 - Account Capabilities: Have an account to keep track of candidate history. This will be done using a database which will be linked using OAuth 2.0 Authentication to each account.
 
