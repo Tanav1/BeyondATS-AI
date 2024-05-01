@@ -23,23 +23,52 @@ def setup_model():
 
     system_instruction = """
     Prompt: Given the job title, detailed job description, and a candidate's uploaded resume provided on the website, 
-    perform a comprehensive analysis to assess the candidate's suitability for the role. The output should include a compatibility 
-    score from 0 to 10, detailed explanations for the score, and additional metrics that provide deeper insights into various 
-    aspects of the candidate’s profile. Ensure that each metric containing scores includes reasoning, and provide 2 to 3 examples 
-    per section from the resume where applicable. The data will be fed like this [f"Role/Job Title: {job_title} Responsibilities:{job_description} Additional Notes:{additional_notes}", resume_text].
-    Ensure that all of this data is taken into account in analysis. Also for clarification, Additional Notes contains additional information
-    from the hiring manager that should be taken into account while running analysis. An example would be candidate must have a bachelors degree.
-    Also, do not assume any pronouns from the resume. 
-
+    perform a comprehensive analysis to assess the candidate's suitability for the role. 
+    The output should include a compatibility score from 0 to 10, detailed explanations for the score, and additional 
+    metrics that provide deeper insights into various aspects of the candidate’s profile. Ensure that each metric containing scores i
+    ncludes reasoning, and provide 2 to 3 examples per section from the resume where applicable. The data will be fed like this 
+    [f"Role/Job Title: {job_title} Responsibilities:{job_description} Additional Notes:{additional_notes}", resume_text]. 
+    Ensure that all of this data is taken into account in the analysis. 
+    Also, for clarification, Additional Notes contains additional information from the hiring manager that should be taken 
+    into account while running the analysis. An example would be a candidate must have a bachelor's degree. 
+    Also, do not assume any pronouns from the resume.
     ### Output Format:
-    - Compatibility Score: Numeric score from 0-10 indicating overall suitability.
-    - Basic Information: Extract candidate details such as name, contact info, LinkedIn, location, and email.
-    - Education: Detail educational background including institutions, years attended, and GPA (if available).
-    - Advanced Metrics for Holistic Assessment: Assess skill proficiency levels, cultural fit, innovation index, leadership potential, 
-      adaptability score, technology adaptation rate, communication effectiveness, project impact score, client engagement score, 
-      risk management index, learning agility index, and digital literacy score. These should have scores from 0-10 as well as justification.
-    - Detailed Evaluation Report: Include sections on strengths, relevant experiences, quantifiable achievements, areas for improvement,
-      feedback for candidate, questions for interview, red flag analysis, achievement impact, and an overall summary with hiring recommendation.
+- Compatibility Score: Numeric score from 0-10 indicating overall suitability.
+- Basic Information:
+    - Name: [Candidate's Name]
+    - Contact Info: [Candidate's Phone Number and Email Address]
+    - LinkedIn: [LinkedIn Profile URL]
+    - Location: [Candidate's Location]
+    - Email: [Candidate's Email Address]
+    - Education:
+    - Institution: [Name of Institution]
+    - Years Attended: [Year Started] - [Year Ended]
+    - GPA: [GPA, if available]
+
+- Advanced Metrics for Holistic Assessment:
+    - Skill Proficiency Levels: [Score] - [Justification with examples]
+    - Cultural Fit: [Score] - [Justification with examples]
+    - Innovation Index: [Score] - [Justification with examples]
+    - Leadership Potential: [Score] - [Justification with examples]
+    - Adaptability Score: [Score] - [Justification with examples]
+    - Technology Adaptation Rate: [Score] - [Justification with examples]
+    - Communication Effectiveness: [Score] - [Justification with examples]
+    - Project Impact Score: [Score] - [Justification with examples]
+    - Client Engagement Score: [Score] - [Justification with examples]
+    - Risk Management Index: [Score] - [Justification with examples]
+    - Learning Agility Index: [Score] - [Justification with examples]
+    - Digital Literacy Score: [Score] - [Justification with examples]
+    - Detailed Evaluation Report:
+    - Strengths: [Strengths with examples]
+    - Relevant Experiences: [Relevant experiences with examples]
+    - Quantifiable Achievements: [Quantifiable achievements with examples]
+    - Areas for Improvement: [Areas for improvement with examples]
+    - Feedback for Candidate: [Feedback for candidate]
+    - Questions for Interview: [Questions for the interview]
+    - Red Flag Analysis: [Red flag analysis]
+    - Achievement Impact: [Achievement impact with examples]
+    - Overall Summary with Hiring Recommendation: [Overall summary with hiring recommendation]
+
 
     Ensure all sections are clearly defined and consistently presented, allowing for straightforward parsing and display in the web interface,
     ensuring that hiring managers receive all necessary insights to make informed decisions.
